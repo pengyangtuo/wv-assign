@@ -1,0 +1,25 @@
+$main-color: #1997c6;
+
+.wv-vertical-nav{
+  width: 200px;
+  margin-right: 25px;
+
+  .nav-link{
+    color: $main-color;
+
+    h1 {
+      color: darkgray;
+    }
+  }
+
+  .nav-link .label{
+    color: lightgray;
+    font-size: 12px;
+  }
+
+  .nav-link.active{
+    background-color: $main-color;
+    color: white;
+    border-radius: 3px;
+  }
+}

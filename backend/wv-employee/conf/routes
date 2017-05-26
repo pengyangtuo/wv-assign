@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Employee services
+GET     /employee                     controllers.EmployeeController.getAll
+GET     /employee/:id                 controllers.EmployeeController.get(id: Int)
+POST    /employee                     controllers.EmployeeController.create
+PUT     /employee                     controllers.EmployeeController.update
+
+# Pay Group services
+GET     /paygroup                     controllers.PayGroupController.getAll
+GET     /paygroup/:id                 controllers.PayGroupController.get(id: Int)
+POST    /paygroup                     controllers.PayGroupController.create
+PUT     /paygroup                     controllers.PayGroupController.update
+

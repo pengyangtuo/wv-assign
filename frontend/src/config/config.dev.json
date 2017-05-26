@@ -1,0 +1,13 @@
+{
+  "serviceEndpoints": {
+    "employee": "http://localhost:9000/employee",
+    "paygroup": "http://localhost:9000/paygroup",
+    "report": "http://localhost:9001/report",
+    "record": "http://localhost:9001/record",
+    "summary": "http://localhost:9001/summary",
+
+    "assets": "http://localhost:9001/assets",
+
+    "notifier": "ws://localhost:9001/notifier"
+  }
+}
